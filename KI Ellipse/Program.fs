@@ -1,8 +1,6 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
+﻿open Bo
 
 [<EntryPoint>]
 let main argv =
-    printfn "Hello World from F#!"
+    printfn "... No arguements provided."
     0 // return an integer exit code
