@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Krypt_Illogical"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="425.709" Width="912.234">
+    <Grid Margin="0,0,-8,-9">
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="343" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="878"/>
+        <Button x:Name="encryptButton" Content="Encrypt" HorizontalAlignment="Left" Width="75" Margin="10,358,0,10" Click="encryptButton_Click"/>
+        <Button x:Name="decryptButton" Content="Decrypt" HorizontalAlignment="Left" Width="75" Margin="121,358,0,10"/>
+
     </Grid>
 </Window>

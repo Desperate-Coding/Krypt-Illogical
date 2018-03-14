@@ -24,5 +24,10 @@ namespace Krypt_Illogical
         {
             InitializeComponent();
         }
+
+        private void encryptButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
